@@ -1,0 +1,8 @@
+<template class="${position}">
+  <require from="./navigation-bar.css"></require>
+  <div class="nav-item ${$index == activeRoute ? 'active' : 'inactive'}" repeat.for="item of items"
+    click.trigger="navigate($event, item.route)">
+    <ion-icon name="${item.iconName}${$index == activeRoute ? '' : '-outline'}"></ion-icon>
+    <p class="title ">${item.title}</p>
+  </div>
+</template>
