@@ -1,4 +1,4 @@
-# `aurelia-navigation-bar`
+# `web-infrastructure`
 
 This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
 
@@ -87,20 +87,20 @@ By default, the `dist/` folder is not committed to git. (We have `/dist` in `.gi
 
 You can consume this plugin directly by:
 ```shell
-npm i github:your_github_username/aurelia-navigation-bar
+npm i github:your_github_username/web-infrastructure
 # or if you use bitbucket
-npm i bitbucket:your_github_username/aurelia-navigation-bar
+npm i bitbucket:your_github_username/web-infrastructure
 # or if you use gitlab
-npm i gitlab:your_github_username/aurelia-navigation-bar
+npm i gitlab:your_github_username/web-infrastructure
 # or plain url
-npm i https:/github.com/your_github_username/aurelia-navigation-bar.git
+npm i https:/github.com/your_github_username/web-infrastructure
 ```
 
 Then load the plugin in app's `main.ts` like this.
 ```js
 aurelia.use.plugin('aurelia-navigation-bar');
 // for webpack user, use PLATFORM.moduleName wrapper
-aurelia.use.plugin(PLATFORM.moduleName('aurelia-navigation-bar'));
+aurelia.use.plugin(PLATFORM.moduleName('web-infrastructure'));
 ```
 
 The missing `dist/` files will be filled up by npm through `"prepare": "npm run build"` (in `"scripts"` section of package.json).
