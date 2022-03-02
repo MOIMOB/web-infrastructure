@@ -3,8 +3,8 @@
   "description": "Aurelia Components and common web function used by MOIMOB",
   "version": "0.1.1",
   "repository": {
-    "type": "???",
-    "url": "???"
+    "type": "git",
+    "url": "https://github.com/MOIMOB/web-infrastructure"
   },
   "license": "UNLICENSED",
   "engines": {
