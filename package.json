@@ -43,7 +43,7 @@
     "connect-history-api-fallback": "1.6.0",
     "connect-injector": "0.4.4",
     "debounce": "1.2.1",
-    "del": "6.0.0",
+    "del": "6.1.0",
     "eslint": "8.14.0",
     "gulp": "4.0.2",
     "gulp-eslint": "6.0.0",
