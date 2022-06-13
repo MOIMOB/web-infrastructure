@@ -31,8 +31,8 @@
   "devDependencies": {
     "@types/jest": "27.5.2",
     "@types/node": "17.0.21",
-    "@typescript-eslint/eslint-plugin": "5.27.1",
-    "@typescript-eslint/parser": "5.27.1",
+    "@typescript-eslint/eslint-plugin": "5.28.0",
+    "@typescript-eslint/parser": "5.28.0",
     "aurelia-animator-css": "1.0.4",
     "aurelia-bootstrapper": "2.4.0",
     "aurelia-cli": "3.0.1",
