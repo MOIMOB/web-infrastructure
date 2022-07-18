@@ -40,7 +40,7 @@
     "aurelia-pal-nodejs": "2.0.0",
     "aurelia-testing": "1.1.0",
     "connect": "3.7.0",
-    "connect-history-api-fallback": "1.6.0",
+    "connect-history-api-fallback": "2.0.0",
     "connect-injector": "0.4.4",
     "debounce": "1.2.1",
     "del": "6.1.1",
